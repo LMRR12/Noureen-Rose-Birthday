@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><meta name="theme-color" content="#071329">
+<title>For Rose | A Little Birthday Surprise</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--night:#071329;--night2:#0c1d3b;--cream:#fff8ec;--ink:#28334a;--rose:#ff7f9c;--gold:#f8d58b;--muted:#aab9d6}*{box-sizing:border-box}html{min-height:100%;background:var(--night)}body{margin:0;min-height:100svh;color:#fff;font-family:Montserrat,system-ui,sans-serif;background:radial-gradient(ellipse at 50% 18%,#152d56 0%,#0b1a35 40%,#050d1d 100%);overflow-x:hidden}button{font:inherit}.stars,.stars:before,.stars:after{position:fixed;inset:0;pointer-events:none;content:"";background-image:radial-gradient(1px 1px at 12% 22%,#fff 98%,transparent),radial-gradient(1px 1px at 83% 17%,#c9d9ff 98%,transparent),radial-gradient(1.5px 1.5px at 73% 71%,#fff 98%,transparent),radial-gradient(1px 1px at 31% 78%,#fff 98%,transparent),radial-gradient(1px 1px at 56% 39%,#d8e4ff 98%,transparent),radial-gradient(1px 1px at 91% 56%,#fff 98%,transparent);background-size:320px 300px;opacity:.45;animation:twinkle 5s ease-in-out infinite alternate}.stars:before{transform:translate(60px,40px);opacity:.45}.stars:after{transform:translate(-30px,70px);opacity:.35}@keyframes twinkle{to{opacity:.8}}.page{position:relative;z-index:1;min-height:100svh;display:flex;flex-direction:column;align-items:center;padding:clamp(24px,5vh,52px) 16px 28px}.topline{font-size:clamp(11px,2.5vw,13px);letter-spacing:.24em;text-transform:uppercase;color:#aebfdf;text-align:center;margin:0 0 12px}.headline{font-weight:800;letter-spacing:-.045em;font-size:clamp(27px,6vw,44px);line-height:1.16;text-align:center;margin:0;color:#fff;text-shadow:0 0 32px #7ea3ff2b}.headline span{color:#ff9ab0}.subhead{font-size:12px;color:#afbed7;text-align:center;margin:12px 0 0;letter-spacing:.04em}.stage{width:min(100%,460px);display:flex;flex-direction:column;align-items:center;flex:1;justify-content:center;min-height:480px;padding:22px 0}.flower-scene{width:220px;height:270px;position:relative;display:grid;place-items:center;margin:0 auto 14px;animation:sceneIn 1s .2s both}.flower{position:absolute;top:28px;left:50%;width:1px;height:1px;transform:translateX(-50%)}.petal{position:absolute;width:39px;height:65px;left:-19px;top:-62px;border-radius:55% 55% 48% 48%;transform-origin:50% 100%;background:linear-gradient(160deg,#ffd2dc 0%,#ff8fae 45%,#e94e86 100%);box-shadow:inset -4px -3px 8px #a51e5740,0 0 22px #ff76a526;opacity:0;animation:petalBloom .8s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(.65s + var(--i)*.09s)}.petal.inner{width:31px;height:50px;left:-15px;top:-47px;background:linear-gradient(150deg,#fff0d1,#ffb4c5 65%,#fb7fa2);animation-delay:calc(1.55s + var(--i)*.07s)}@keyframes petalBloom{0%{opacity:0;transform:rotate(var(--angle)) scale(.06)}75%{opacity:1;transform:rotate(var(--angle)) scale(1.08)}100%{opacity:1;transform:rotate(var(--angle)) scale(1)}}.center{position:absolute;left:-13px;top:-13px;width:26px;height:26px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff0a8,#f5be54 60%,#c77d31);box-shadow:0 0 22px #ffd77a7d;transform:scale(0);animation:centerPop .5s 2.15s forwards}.stem{position:absolute;top:6px;left:-3px;width:6px;height:155px;border-radius:8px;background:linear-gradient(90deg,#1c755f,#72c59b,#185a4c);transform:scaleY(0);transform-origin:top;animation:grow .9s .8s ease-out forwards}.leaf{position:absolute;top:92px;width:56px;height:28px;background:linear-gradient(140deg,#a1e0a9,#2e916f);opacity:0;animation:leafIn .5s 1.5s forwards}.leaf.left{left:-51px;border-radius:100% 0 100% 0;transform:rotate(-12deg)}.leaf.right{left:1px;top:126px;border-radius:0 100% 0 100%;transform:rotate(12deg)}.ground{position:absolute;bottom:22px;width:150px;height:12px;background:#4e83b54d;filter:blur(9px);border-radius:50%;animation:groundIn 1s 1.3s both}.spark{position:absolute;color:#ffdf99;font-size:17px;animation:floatSpark 3s ease-in-out infinite}.spark.s1{top:42px;left:24px}.spark.s2{top:97px;right:20px;animation-delay:.8s}.spark.s3{top:163px;left:34px;animation-delay:1.4s}.spark.s4{top:24px;right:47px;animation-delay:.5s}@keyframes grow{to{transform:scaleY(1)}}@keyframes centerPop{to{transform:scale(1)}}@keyframes leafIn{to{opacity:1}}@keyframes groundIn{from{opacity:0}to{opacity:1}}@keyframes floatSpark{0%,100%{transform:translateY(0) scale(.8);opacity:.5}50%{transform:translateY(-10px) scale(1.15);opacity:1}}@keyframes sceneIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.intro{color:#d4def1;text-align:center;font-size:13px;line-height:1.7;max-width:290px;margin:0 auto 22px}.start-btn,.again-btn{border:1px solid #ffffff35;color:#fff;background:#ffffff0c;padding:13px 22px;border-radius:999px;cursor:pointer;font-size:12px;letter-spacing:.08em;transition:.2s;box-shadow:0 8px 30px #0002}.start-btn:hover,.again-btn:hover{background:#ffffff1a;transform:translateY(-2px)}.start-btn span{color:var(--gold);margin-left:8px}.deck{position:relative;width:min(100%,360px);height:clamp(300px,43svh,365px);perspective:1000px;margin:4px auto 0}.card{position:absolute;inset:0;border-radius:7px 18px 18px 7px;background:var(--cream);color:var(--ink);padding:clamp(24px,6vw,34px) clamp(22px,6vw,32px) 24px;box-shadow:0 22px 55px #0005, inset 5px 0 0 #f2d6d2;display:flex;flex-direction:column;cursor:pointer;transform-origin:10% 50%;transition:transform .65s cubic-bezier(.65,0,.25,1),opacity .55s;overflow:hidden;touch-action:manipulation}.card:before{content:"";position:absolute;left:17px;top:0;bottom:0;width:1px;background:#e9b8b8a6}.card:after{content:"";position:absolute;inset:12px;border:1px solid #e8d5c9;pointer-events:none;border-radius:3px}.card:nth-child(1){z-index:5}.card:nth-child(2){z-index:4;transform:translate(5px,7px) rotate(2deg) scale(.985);background:#f5e8dc}.card:nth-child(3){z-index:3;transform:translate(9px,13px) rotate(-2.2deg) scale(.97);background:#f4e0e5}.card:nth-child(4){z-index:2;transform:translate(13px,19px) rotate(2.8deg) scale(.955);background:#f5ead5}.card:nth-child(5){z-index:1;transform:translate(17px,25px) rotate(-3deg) scale(.94);background:#e8e9df}.card .eyebrow{font-family:Montserrat,sans-serif;font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#b16b7c;margin:4px 0 15px;position:relative;z-index:1}.card h2{font-family:'Caveat',cursive;font-size:clamp(28px,7vw,36px);font-weight:600;line-height:1.02;margin:0 0 17px;color:#25334c;position:relative;z-index:1}.card p{font-family:'Caveat',cursive;font-size:clamp(20px,5.1vw,24px);font-weight:500;line-height:1.36;margin:0;position:relative;z-index:1;white-space:pre-line}.card .signature{font-family:'Caveat',cursive;font-size:23px;color:#b45b78;margin-top:auto;padding-top:12px;position:relative;z-index:1}.next{align-self:flex-end;margin-top:auto;padding:10px 0 2px 12px;font-family:Montserrat,sans-serif;font-size:10px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#b45b78;position:relative;z-index:2}.next span{font-size:15px;margin-left:6px}.card.gone{transform:translate(115%, -10%) rotate(18deg) scale(.85)!important;opacity:0;pointer-events:none}.card.hidden{opacity:0;pointer-events:none}.progress{font-size:10px;color:#a8b8d4;letter-spacing:.16em;margin:43px 0 0;text-align:center}.progress b{color:#fff;font-weight:600}.cake-scene{width:min(100%,330px);height:285px;position:relative;display:flex;align-items:flex-end;justify-content:center;padding-bottom:42px;animation:sceneIn .8s both}.cake-shadow{position:absolute;bottom:30px;width:240px;height:25px;background:#4b79ae45;filter:blur(12px);border-radius:50%}.cake-plate{position:absolute;bottom:40px;width:260px;height:18px;background:linear-gradient(#e6eaf8,#aab8d4 55%,#7486a8);border-radius:50%;box-shadow:0 7px 10px #0004}.cake-base{position:absolute;bottom:54px;width:210px;height:83px;border-radius:12px 12px 19px 19px;background:linear-gradient(90deg,#a94c79,#e985a5 20%,#f7b8c8 52%,#d86791 85%,#a94c79);box-shadow:inset 0 -12px #9c426c42}.cake-top{position:absolute;bottom:126px;width:210px;height:35px;border-radius:50%;background:linear-gradient(180deg,#fff2df,#f9c9d6 70%,#e78da8);border-bottom:4px solid #d96d91}.icing{position:absolute;bottom:111px;width:210px;height:28px;display:flex;justify-content:space-around;z-index:2}.icing i{display:block;width:19px;height:25px;border-radius:0 0 12px 12px;background:#ffe4d4;transform:translateY(-3px)}.icing i:nth-child(2n){height:17px}.candle{position:absolute;bottom:154px;width:13px;height:52px;border-radius:4px;background:repeating-linear-gradient(135deg,#fff4d8 0 6px,#e97e9c 6px 12px);z-index:3;box-shadow:0 0 10px #fff2}.candle.c1{margin-left:-50px;height:43px}.candle.c2{margin-left:0;height:58px}.candle.c3{margin-left:50px;height:47px}.flame{position:absolute;bottom:calc(100% - 3px);left:1px;width:11px;height:19px;border-radius:55% 55% 45% 45%;background:radial-gradient(ellipse at 50% 70%,#fff9b8 0 20%,#ffc65d 42%,#ff8a52 72%,transparent 74%);filter:drop-shadow(0 0 8px #ffba56);transform-origin:50% 100%;animation:flicker .55s infinite alternate}.flame:after{content:"";position:absolute;left:3px;top:4px;width:5px;height:9px;border-radius:50%;background:#fff9db}@keyframes flicker{from{transform:rotate(-5deg) scale(.94)}to{transform:rotate(6deg) scale(1.08)}}.cake-sprinkle{position:absolute;bottom:125px;z-index:3;color:#fff4b4;font-size:13px}.cake-sprinkle.a{margin-left:-78px}.cake-sprinkle.b{margin-left:76px}.wish{font-family:'Caveat',cursive;font-size:clamp(23px,6vw,30px);text-align:center;color:#ffd5df;margin:-10px 0 0}.final-note{max-width:300px;text-align:center;color:#c1cde2;font-size:12px;line-height:1.8;margin:12px 0 22px}.hidden-screen{display:none!important}.footer{font-size:9px;color:#7084a9;letter-spacing:.12em;text-align:center;margin-top:auto;padding-top:20px}.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5}.confetti i{position:absolute;top:-12px;width:6px;height:10px;border-radius:2px;animation:fall 3.8s linear forwards}@keyframes fall{to{transform:translateY(110svh) rotate(700deg);opacity:.2}}@media(max-height:700px){.page{padding-top:20px}.stage{min-height:390px}.flower-scene{transform:scale(.82);margin-top:-12px;margin-bottom:-8px}.deck{height:300px}.progress{margin-top:30px}.cake-scene{height:240px;transform:scale(.88);margin-top:-10px;margin-bottom:-8px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+/* Layout refinements: keep every letter inside its card and centre the finale. */
+.page{padding:clamp(18px,3.5vh,34px) 16px 22px;}
+.topline{margin-bottom:8px;}
+.headline{max-width:100%;font-size:clamp(25px,5.8vw,42px);}
+.subhead{margin-top:8px;}
+.stage{width:100%;min-height:0;padding:clamp(14px,2.5vh,24px) 0;justify-content:center;}
+#letters{width:100%;}
+.deck{width:min(100%,360px);height:clamp(390px,54svh,455px);margin:4px auto 0;}
+.card{padding:clamp(22px,4.8vw,30px) clamp(23px,6vw,31px) 20px;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#d8b6b8 transparent;}
+.card .eyebrow{font-size:clamp(8px,2.2vw,9px);line-height:1.5;margin:4px 0 12px;}
+.card h2{font-size:clamp(27px,6.5vw,34px);line-height:1.08;margin:0 0 13px;overflow-wrap:anywhere;}
+.card p{font-size:clamp(19px,4.9vw,22px);line-height:1.32;overflow-wrap:anywhere;}
+.card .signature{font-size:21px;padding-top:12px;}
+.next{flex-shrink:0;padding-top:12px;}
+.progress{margin:24px 0 0;line-height:1.7;}
+.cake-scene{display:flex;width:min(100%,330px);margin:0 auto;align-self:center;left:auto;right:auto;}
+#ending{width:100%;display:flex;flex-direction:column;align-items:center;}
+#ending .cake-scene,#ending .wish,#ending .final-note,#ending .again-btn{margin-left:auto;margin-right:auto;}
+.footer{padding-top:14px;}
+@media(max-width:420px){
+ .page{padding-left:14px;padding-right:14px;}
+ .deck{width:calc(100% - 8px);height:clamp(390px,56svh,455px);}
+ .card{padding:23px 23px 18px 27px;}
+ .card:before{left:15px;}
+ .card:after{inset:9px;}
+ .card h2{font-size:clamp(27px,7.2vw,32px);}
+ .card p{font-size:clamp(19px,5.2vw,21px);line-height:1.31;}
+ .cake-scene{transform:none;}
+}
+@media(max-height:700px){
+ .page{padding-top:14px;padding-bottom:14px;}
+ .stage{padding:10px 0;}
+ .flower-scene{transform:scale(.82);margin-top:-10px;margin-bottom:-10px;}
+ .deck{height:clamp(370px,62svh,430px);}
+ .progress{margin-top:16px;}
+ .cake-scene{height:240px;transform:none;margin-top:0;margin-bottom:0;}
+ .footer{padding-top:8px;}
+}
+@media(max-height:560px){
+ .topline{margin-bottom:5px;}
+ .subhead{font-size:11px;margin-top:5px;}
+ .deck{height:360px;}
+ .card{padding-top:20px;padding-bottom:15px;}
+ .card h2{margin-bottom:9px;}
+ .card p{font-size:19px;line-height:1.25;}
+ .progress{margin-top:12px;}
+}
+
+
+/* Responsive polish: keep the flower below the greeting and scale typography smoothly. */
+.headline{
+  width:100%;
+  max-width: min(100%, 760px);
+  font-size:clamp(22px, 5.6vw, 44px);
+  line-height:1.18;
+  overflow-wrap:normal;
+  background:linear-gradient(100deg,#fff2c9 0%,#ff9fbd 22%,#d8c4ff 46%,#a9dfff 68%,#fff0bd 86%,#ff9fbd 100%);
+  background-size:260% auto;
+  color:transparent;
+  -webkit-background-clip:text;
+  background-clip:text;
+  animation:roseGradient 7s ease-in-out infinite;
+}
+.headline span{color:inherit;text-shadow:none}
+@keyframes roseGradient{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.stage{flex:0 0 auto;min-height:0;justify-content:flex-start;padding:clamp(14px,3vh,30px) 0 18px;}
+#welcome{display:flex;flex-direction:column;align-items:center;}
+.flower-scene{flex:0 0 auto;margin-top:clamp(12px,3vh,28px);margin-bottom:clamp(8px,2vh,18px);}
+.intro{font-size:clamp(12px,3.5vw,14px);line-height:1.7;padding-inline:8px;}
+.deck{width:min(100%,360px);height:clamp(330px,54svh,455px);}
+.card{padding:clamp(18px,5.5vw,30px) clamp(19px,6vw,31px) clamp(15px,4vw,22px);}
+.card .eyebrow{font-size:clamp(8px,2.4vw,10px);letter-spacing:clamp(.08em,.5vw,.18em);}
+.card h2{font-size:clamp(24px,7.4vw,36px);line-height:1.08;}
+.card p{font-size:clamp(17px,5.35vw,24px);line-height:1.32;}
+.card .signature{font-size:clamp(19px,5.6vw,23px);}
+.next{font-size:clamp(9px,2.8vw,11px);}
+.cake-scene{width:min(100%,330px);max-width:100%;margin-inline:auto;left:auto;right:auto;}
+#ending{display:flex;flex-direction:column;align-items:center;}
+.wish{font-size:clamp(23px,6.5vw,31px);}
+.final-note{font-size:clamp(13px,3.7vw,15px);line-height:1.75;max-width:36rem;padding-inline:8px;}
+@media(max-width:600px){
+  .page{padding:18px 14px 18px;}
+  .topline{font-size:clamp(9px,2.8vw,12px);letter-spacing:.16em;margin-bottom:9px;}
+  .headline{font-size:clamp(22px,6.3vw,34px);letter-spacing:-.035em;padding-inline:2px;}
+  .subhead{font-size:clamp(10px,3.1vw,12px);line-height:1.5;padding-inline:8px;}
+  .stage{padding-top:clamp(10px,2.5vh,20px);}
+  .flower-scene{width:clamp(185px,57vw,220px);height:clamp(225px,68vw,270px);margin-top:clamp(16px,4vh,30px);}
+  .deck{width:100%;height:clamp(330px,55svh,440px);}
+  .card{padding:clamp(18px,5vw,25px) clamp(19px,6vw,26px) 17px;}
+  .card:before{left:13px;}
+  .card:after{inset:8px;}
+  .card .eyebrow{margin:3px 0 10px;}
+  .card h2{font-size:clamp(24px,7.4vw,31px);margin-bottom:clamp(9px,2.8vw,13px);}
+  .card p{font-size:clamp(17px,5.2vw,21px);line-height:1.3;}
+  .card .signature{font-size:clamp(18px,5.4vw,21px);padding-top:10px;}
+  .progress{font-size:clamp(8px,2.5vw,10px);letter-spacing:.1em;margin-top:18px;}
+  .cake-scene{transform:none;transform-origin:top center;height:clamp(225px,68vw,285px);}
+  .footer{font-size:9px;letter-spacing:.12em;text-align:center;}
+}
+@media(max-width:360px){
+  .cake-scene{transform:scale(.88);margin-bottom:-24px;}
+  .page{padding-inline:11px;}
+  .headline{font-size:clamp(21px,6.1vw,25px);}
+  .flower-scene{margin-top:18px;}
+  .deck{height:clamp(320px,58svh,410px);}
+  .card{padding-left:22px;padding-right:17px;}
+  .card p{font-size:clamp(16px,4.9vw,18px);}
+}
+@media(prefers-reduced-motion:reduce){.headline{animation:none;background-position:50% 50%;}}
+
+</style></head>
+<body><div class="stars" aria-hidden="true"></div><div class="confetti" id="confetti" aria-hidden="true"></div>
+<main class="page">
+  <p class="topline">A little something, just for you</p>
+  <h1 class="headline">Happy Birthday, <span>Dear Rose</span></h1>
+  <p class="subhead">A tiny celebration for a genuinely lovely human.</p>
+  <section class="stage" aria-live="polite">
+    <div id="welcome" class="screen" style="text-align:center;width:100%">
+      <div class="flower-scene" aria-label="An animated pink flower blooming">
+        <span class="spark s1">✧</span><span class="spark s2">✦</span><span class="spark s3">✧</span><span class="spark s4">✦</span><div class="ground"></div>
+        <div class="flower" id="flower"><div class="stem"></div><div class="leaf left"></div><div class="leaf right"></div></div>
+      </div>
+      <p class="intro">Some days deserve a little extra sparkle.<br>This one is yours.</p>
+      <button class="start-btn" id="begin">Open your little surprise <span>↗</span></button>
+    </div>
+    <div id="letters" class="screen hidden-screen" style="width:100%;text-align:center">
+      <div class="deck" id="deck">
+        <article class="card" tabindex="0" role="button" aria-label="Open birthday note 1"><div class="eyebrow">A little birthday note · 01</div><h2>To Rose, on your day</h2><p>Birthdays are a good excuse to remind people that they make the world around them a little brighter. So, here's your reminder: you do.</p><div class="signature">Keep being you, Rose.</div><div class="next">Next <span>→</span></div></article>
+        <article class="card" tabindex="0" role="button" aria-label="Open birthday note 2"><div class="eyebrow">A little birthday note · 02</div><h2>For all the little things</h2><p>May your days be full of unexpected good news, songs that find you at the right time, belly laughs over absolutely nothing, and people who make you feel understood.</p><div class="signature">You deserve the good stuff.</div><div class="next">Next <span>→</span></div></article>
+        <article class="card" tabindex="0" role="button" aria-label="Open birthday note 3"><div class="eyebrow">A little birthday note · 03</div><h2>A wish for your next chapter</h2><p>I hope this year brings you closer to the things you dream about, gives you courage on the difficult days, and leaves you with stories you'll tell for years.</p><div class="signature">One lovely chapter at a time.</div><div class="next">Next <span>→</span></div></article>
+        <article class="card" tabindex="0" role="button" aria-label="Open birthday note 4"><div class="eyebrow">A little birthday note · 04</div><h2>One thing I hope you know</h2><p>I'm really glad our paths crossed. The ordinary conversations, the random laughs, the small moments that don't look like much but somehow become good memories... I value them.</p><div class="signature">Here's to more of those.</div><div class="next">Next <span>→</span></div></article>
+        <article class="card" tabindex="0" role="button" aria-label="Open birthday note 5"><div class="eyebrow">And, finally · 05</div><h2>Make a little wish</h2><p>So here's to more reasons to smile, more dreams coming true, more peaceful days, and a year that feels a little kinder to you. Never forget how much good you bring into the lives around you.</p><div class="signature">Happy birthday, Rose. Truly.</div><div class="next">Finish <span>♡</span></div></article>
+      </div><p class="progress" id="progress">NOTE <b>01</b> OF 05 · TAP THE CARD TO CONTINUE</p>
+    </div>
+    <div id="ending" class="screen hidden-screen" style="text-align:center;width:100%">
+      <div class="cake-scene" aria-label="An animated birthday cake with glowing candles"><div class="cake-shadow"></div><div class="cake-plate"></div><div class="cake-base"></div><div class="cake-top"></div><div class="icing"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="cake-sprinkle a">✦</span><span class="cake-sprinkle b">✧</span><div class="candle c1"><span class="flame"></span></div><div class="candle c2"><span class="flame"></span></div><div class="candle c3"><span class="flame"></span></div></div>
+      <p class="wish">Make a wish, Rose.</p><p class="final-note">May the year ahead surprise you in the best ways. Thank you for being someone worth celebrating. Have the loveliest birthday.</p><button class="again-btn" id="replay">Read it all again ↺</button>
+    </div>
+  </section>
+  <footer class="footer">MADE WITH CARE · JUST FOR ROSE</footer>
+</main>
+<script>
+const flower=document.getElementById('flower');for(let i=0;i<10;i++){const p=document.createElement('span');p.className='petal';p.style.setProperty('--i',i);p.style.setProperty('--angle',`${i*36}deg`);flower.appendChild(p)}for(let i=0;i<7;i++){const p=document.createElement('span');p.className='petal inner';p.style.setProperty('--i',i);p.style.setProperty('--angle',`${i*360/7+14}deg`);flower.appendChild(p)}const center=document.createElement('span');center.className='center';flower.appendChild(center);
+const welcome=document.getElementById('welcome'),letters=document.getElementById('letters'),ending=document.getElementById('ending'),cards=[...document.querySelectorAll('.card')],progress=document.getElementById('progress');let index=0;
+function show(el){[welcome,letters,ending].forEach(x=>x.classList.add('hidden-screen'));el.classList.remove('hidden-screen')}
+document.getElementById('begin').addEventListener('click',()=>{index=0;cards.forEach(c=>c.classList.remove('gone','hidden'));show(letters);updateProgress()});function updateProgress(){progress.innerHTML=`NOTE <b>${String(Math.min(index+1,cards.length)).padStart(2,'0')}</b> OF ${String(cards.length).padStart(2,'0')} · TAP THE CARD TO CONTINUE`}
+function nextCard(card){if(card.classList.contains('gone'))return;card.classList.add('gone');index++;if(index<cards.length){cards[cards.length-index-1]?.classList.remove('hidden');updateProgress()}else{setTimeout(()=>{show(ending);celebrate()},380)}}cards.forEach(card=>{card.addEventListener('click',()=>nextCard(card));card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();nextCard(card)}})});
+function celebrate(){const box=document.getElementById('confetti');box.innerHTML='';const colors=['#ff91ad','#f8d58b','#b4d8ff','#c5f0d0','#e8c6ff'];for(let i=0;i<65;i++){const bit=document.createElement('i');bit.style.left=Math.random()*100+'%';bit.style.background=colors[i%colors.length];bit.style.animationDelay=Math.random()*1.5+'s';bit.style.animationDuration=(2.6+Math.random()*2)+'s';bit.style.transform=`rotate(${Math.random()*180}deg)`;box.appendChild(bit)}setTimeout(()=>box.innerHTML='',5500)}
+document.getElementById('replay').addEventListener('click',()=>{index=0;cards.forEach(c=>c.classList.remove('gone','hidden'));show(welcome);document.getElementById('confetti').innerHTML=''});
+</script></body></html>
